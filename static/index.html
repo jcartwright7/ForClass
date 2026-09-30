@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Buddy</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>AI Study Buddy</h1>
+        <p>Ask a study question and get a simple AI explanation.</p>
+
+        <label for="question">Your question</label>
+        <textarea id="question" rows="6" placeholder="Example: Explain photosynthesis in simple words."></textarea>
+
+        <button id="askButton">Ask AI</button>
+
+        <p id="status" class="status"></p>
+
+        <section class="answer-box">
+            <h2>Answer</h2>
+            <div id="answer">Your answer will appear here.</div>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
